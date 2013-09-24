@@ -40,7 +40,8 @@ html, body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translateX(-250px) translateY(-100px);
+  -webkit-transform: translateX(-250px) translateY(-100px);
+          transform: translateX(-250px) translateY(-100px);
 }
 
 #main .inner {
@@ -51,7 +52,8 @@ html, body {
 h1.hl {
   font-size: 40pt;
   color: #fff;
-  transform: translateX(-20px);
+  -webkit-transform: translateX(-20px);
+          transform: translateX(-20px);
   text-shadow: 0 1px #000, 0 2px #000, 0 3px #000, 0 4px #000;
 }
 
