@@ -1,6 +1,17 @@
-# PUTC.ME Website Source
+# putc.me Website Source
 
 Fell free to sniff around
+
+## Kaushan Script Font
+
+http://www.fontsquirrel.com/fonts/kaushan-script
+
+Copyright (c) 2011, Pablo Impallari (http://www.impallari.com|impallari@gmail.com),
+Copyright (c) 2011, Igino Marini. (http://www.ikern.com|mail@iginomarini.com),
+with Reserved Font Name Kaushan Script.
+
+Licensed under the SIL Open Font License, Version 1.1.
+http://scripts.sil.org/OFL
 
 ## The MIT License (MIT)
 
