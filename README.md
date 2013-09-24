@@ -1,8 +1,8 @@
-= PUTC.ME Website Source
+# PUTC.ME Website Source
 
 Fell free to sniff around
 
-== The MIT License (MIT)
+## The MIT License (MIT)
 
 Copyright (c) 2013 murdoc@raidrush.org
 
