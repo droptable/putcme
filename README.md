@@ -13,6 +13,12 @@ with Reserved Font Name Kaushan Script.
 Licensed under the SIL Open Font License, Version 1.1.
 http://scripts.sil.org/OFL
 
+## Background (Wallpaper)
+
+http://www.hdwallpapers.in/infinity-wallpapers.html
+
+Copyright (c) Vladstudio (http://www.vladstudio.com/)
+
 ## The MIT License (MIT)
 
 Copyright (c) 2013 murdoc@raidrush.org

@@ -4,40 +4,38 @@
 
 <link rel="stylehseet" href="css/normalize.css">
 <link rel="stylesheet" href="css/main.css">
-<link rel="stylehseet" href="css/small.css" media="(max-width:899px)">
 
-<link rel="shortcut icon" href="facicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-<header id="head">
-  <span class="hl">putc.me - Webs(t)uff</span>
-  
-  <nav id="tnav">
-    <a href="/me">Über mich</a>
-    <a href="/code">Code</a>
-    <a href="/msg">Kontakt</a>
-  </nav>  
-</header>
-
-<div id="main" role="main">
-  <section id="view-me" class="view">
-    <h1>Über mich!</h1>
-    <p>Wip
-  </section>
-  
-  <section id="view-code" class="view">
-    <h1>Code</h1>
-    <p>Wip
-  </section>
-  
-  <section id="view-code" class="view">
-    <h1>Kontakt</h1>
-    <p>Wip
-  </section>
+<div id="main">
+  <h1 class="hl">putc.me</h1>
+  <ul class="inner">
+    <li><a href="//github.com/droptable" rel="external">github</a></li>
+    <li><a href="//board.raidrush.ws/search.php?do=finduser&u=18622">raidrush</a></li>
+    <li><a class="lto" href="//www.enable-javascript.com/">kontakt</a></li>
+    <li>mehr in kürze!</li>
+  </ul>
 </div>
 
 <footer id="foot">
-  
+  <p class="lg">Copyright &copy; 2013 - <a href="/">putc.me</a> 
+    (<a href="//github.com/droptable/putcme" rel="external">Source</a>)
+    / Background &copy; <a href="http://www.vladstudio.com/" rel="external">Vladstudio</a></p>
+  <p class="hl">putc.me</p>
 </footer>
 
-<script src="js/main.js" type="text/javascript;version=1.7"></script>
-<script src="js/lame.js" defer></script>
+<script>
+  (function(win, doc, undefined) {
+    'use strict';
+    
+    // for bots
+    var s = win.String, c = s.fromCharCode.bind(s), m = '', h = [ 
+      103, 113, 109, 43, 100, 110, 111, 107, 92, 96, 87, 
+      103, 52, 86, 97, 85, 98, 100, 91, 39, 91, 95, 86, 
+      82, 73, 84
+    ];
+    
+    for (var i = h.length; i--;) m += c(i + h.pop());
+    doc.querySelector('a.' + m.slice(3, 6)).href = m;
+  })(window, document);
+</script>

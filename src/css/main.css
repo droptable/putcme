@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: KaushanScript;
+  src: local("KaushanScript"),
+       local("KaushanScript-Regular"), 
+       url("../font/KaushanScript-Regular.otf") format("opentype");
+}
+
+html {
+  height: 100%;
+  background: #000 url("../img/backs.jpg") 0 0/cover no-repeat;
+  font-family: sans-serif;
+}
+
+@media all and (min-width: 1100px) {
+  html {
+    background-image: url("../img/backw.jpg");
+  }
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+       box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.hl {
+  font-family: KaushanScript;
+  font-size: 12pt;
+}
+
+#main {
+  width: 500px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-250px) translateY(-100px);
+}
+
+#main .inner {
+  color: #fff;
+  transform: translateY(-40px);
+}
+
+h1.hl {
+  font-size: 40pt;
+  color: #fff;
+  transform: translateX(-20px);
+  text-shadow: 0 1px #000, 0 2px #000, 0 3px #000, 0 4px #000;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+ul li {
+  display: inline-block;
+  font-size: 10pt;
+  margin-right: 10px;
+}
+
+ul li:not(:last-child)::after {
+  content: "/";
+  padding-left: 10px;
+}
+
+ul li, ul li a {
+  color: #fff;
+  font-size: 12pt;
+  font-family: Consolas, "Dejavu Sans Mono", "Ubuntu Mono";
+  text-decoration: none;
+}
+
+ul li a {
+  display: inline-block;
+  padding-bottom: 3px;
+  border-bottom: 1px dashed #fff;
+}
+
+#foot {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top: 1px solid #111;
+  background: rgba(0, 0, 0, .5);
+  box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+  font-size: 9pt;
+  padding: 10px 14px;
+}
+
+#foot, #foot a {
+  color: #fff;
+}
+
+#foot p {
+  margin: 0;
+}
+
+#foot .lg {
+  float: right;
+}
+
+#foot .hl {
+  position: absolute;
+  top: 4px;
+}
