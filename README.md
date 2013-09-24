@@ -7,6 +7,7 @@ Fell free to sniff around
 http://www.fontsquirrel.com/fonts/kaushan-script
 
 Copyright (c) 2011, Pablo Impallari (http://www.impallari.com|impallari@gmail.com),
+
 Copyright (c) 2011, Igino Marini. (http://www.ikern.com|mail@iginomarini.com),
 with Reserved Font Name Kaushan Script.
 
@@ -16,6 +17,7 @@ http://scripts.sil.org/OFL
 ## Images
 
 Copyright (c) Vladstudio (http://www.vladstudio.com/)
+
 Copyright (c) Custom Icon Design (http://www.customicondesign.com) 
 
 ## The MIT License (MIT)
