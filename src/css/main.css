@@ -9,13 +9,14 @@
 
 html {
   height: 100%;
-  background: #000 url("../img/backs.jpg") 0 0/cover no-repeat;
+  background: #111 url("../img/blackorchid.png") 0 0 / 300px 300px repeat;
   font-family: sans-serif;
 }
 
-@media all and (min-width: 1100px) {
+
+@media all and (min-resolution: 192dpi) {
   html {
-    background-image: url("../img/backw.jpg");
+    background-image: url("../img/blackorchid@2x.jpg");
   }
 }
 

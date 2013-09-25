@@ -16,7 +16,7 @@ http://scripts.sil.org/OFL
 
 ## Images
 
-Copyright (c) Vladstudio (http://www.vladstudio.com/)
+Copyright (c) Hybridixstudio (http://www.hybridixstudio.com/)
 
 Copyright (c) Custom Icon Design (http://www.customicondesign.com) 
 
