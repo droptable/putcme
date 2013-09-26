@@ -1,5 +1,7 @@
 src/.htaccess
 src/font/KaushanScript-Regular.otf
 src/font/KaushanScript-Regular.otf.gz
+src/font/KaushanScript-Regular.woff
+
+# psd-files and so on
 src/priv/*
-src/img/backo.jpg
