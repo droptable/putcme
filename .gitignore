@@ -5,3 +5,4 @@ src/font/KaushanScript-Regular.woff
 
 # psd-files and so on
 src/priv/*
+bin/*
